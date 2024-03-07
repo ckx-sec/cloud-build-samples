@@ -15,7 +15,7 @@
 # [START cloudbuild_quickstart_automate]
 steps:
   - name: 'ubuntu'
-    args: ['bash','./evil.sh']
+    args: ['bash','./quickstart-automate/evil.sh']
 
   - name: golang
     args: ['go', 'run', 'quickstart-automate/main.go']
